@@ -13,6 +13,7 @@ const { checkForAuthenticationCookie } = require("./middlewares/authentication")
 
 const app = express();
 const PORT = process.env.PORT || 8000;
+console.log("MONGO_URI:", process.env.MONGO_URI);
 
 // --- Connect to MongoDB ---
 mongoose.set('strictQuery', true); // optional, removes deprecation warning
