@@ -14,8 +14,6 @@ npm-debug.log*
 Thumbs.db
 .vscode/
 
-# Local uploads (if any)
-uploads/
 
 # Build output (if you ever build)
 dist/
