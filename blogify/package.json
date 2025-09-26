@@ -1,11 +1,10 @@
 {
-  "name": "youtube-blog",
+  
+  "name": "blogify",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "main": "blogify/app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node blogify/app.js"
   },
   "author": "",
   "engines": {
