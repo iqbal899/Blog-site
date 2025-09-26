@@ -15,6 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 8000;
 
 // --- Connect to MongoDB ---
+mongoose.set('strictQuery', true); // optional, removes deprecation warning
 mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
