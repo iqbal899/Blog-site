@@ -2,10 +2,12 @@
   
   "name": "blogify",
   "version": "1.0.0",
-  "main": "blogify/app.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node blogify/app.js"
-  },
+  "start": "node app.js",
+  "dev": "nodemon app.js"
+},
+
   "author": "",
   "engines": {
     "node": ">=16.0.0"
